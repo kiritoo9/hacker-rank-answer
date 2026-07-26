@@ -1,3 +1,10 @@
+'''
+Why this is stupid?
+
+- Too many useless logic only for find direction up and down.
+- Also I do not need to append empty string for each y-row.
+- Logic worked, but runtime around 630ms, its not good for competition.
+'''
 class Solution(object):
     def convert(self, s, numRows):
         """
